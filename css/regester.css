@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: b titr;
+    font-weight: bold;
+    overflow: hidden;
+  }
+  .container {
+    margin: 100px auto;
+    text-align: center;
+  }
+  form{
+    background-color: #e9e5e5;
+    max-width:60%;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border-radius: 3px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.493);
+  }
+  .title{
+    color: #ffffff;
+    text-shadow: 0 0 10px black;
+    font-size: 20px;
+  }
+  .input-grup{
+    position: relative;
+  }
+  input{
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    outline: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow:inset 0 0 5px rgba(0, 0, 0, 0.397);
+  }
+  .btn{
+    width: 100%;
+    background-color: rgb(27, 151, 27);
+    color: #fff;
+    padding: 0;
+    font-size: 15px;
+    font-family: b titr;
+    cursor: pointer;
+  }
+  .notVeiw{
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 20px;
+    height: 12px;
+    transform: scale(0.9);
+    background-image: url('../icon/veiwNot.png');
+  }
+  .veiw{
+    background-image:  url('../icon/veiw.png');
+    filter: sepia(100%);
+  }
+  .link{
+    text-decoration: none;
+    color: rebeccapurple;
+  }
+.link span{
+    text-decoration: underline;
+    color: green;
+  }
+  
+  

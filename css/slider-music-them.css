@@ -1,0 +1,76 @@
+.owl-theme2 .owl-dots,
+ .owl-theme2 .owl-nav {
+   text-align: center;
+   -webkit-tap-highlight-color: transparent;
+ }
+ .owl-theme2 .owl-nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 100px;
+ }
+ .owl-theme2 .owl-nav {
+   margin-top: 10px;
+ }
+ .owl-theme2 .owl-nav [class*="owl-"] {
+   color: #fff;
+   font-size: 30px;
+   width: 100px;
+   display: inline-block;
+   cursor: pointer;
+   border-radius: 3px;
+ }
+ .owl-theme2 .owl-nav [class*="owl-"]:hover {
+   text-decoration: none;
+ }
+ .owl-theme2 .owl-nav .disabled {
+   opacity: 0.5;
+   cursor: default;
+ }
+ .owl-theme2 .owl-nav.disabled + .owl-dots {
+   margin-top: 10px;
+ }
+ .owl-theme2 .owl-dots .owl-dot {
+   display: inline-block;
+   zoom: 1;
+ }
+ .owl-theme2 .owl-dots .owl-dot span {
+   width: 10px;
+   height: 10px;
+   margin: 0 3px;
+   margin-top: -20px;
+   background: #460461;
+   display: block;
+   -webkit-backface-visibility: visible;
+   transition: all 0.2s ease;
+   border-radius: 30px;
+ }
+ .owl-theme2 .owl-dots .owl-dot.active span {
+   background: #7e0073;
+   width: 25px;
+ }
+ .owl-theme2 .owl-nav {
+   top: -130px;
+   position: relative;
+ }
+ .owl-prev,
+ .owl-next {
+   position: absolute;
+ }
+ .owl-theme2 .owl-nav .owl-prev {
+   right: -35px;
+ }
+ .owl-theme2 .owl-nav .owl-next {
+   left:-45px ;
+ }
+ .owl-nav span {
+   color: #142199b2;
+   border-radius: 10px;
+   transition: all 0.3s;
+   padding: 0 5px;
+ }
+ .owl-nav span:hover {
+   color: #000000;
+   background-color: #0000001e;
+ }
+ 
